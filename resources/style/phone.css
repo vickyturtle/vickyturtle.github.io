@@ -1,0 +1,104 @@
+body {
+  /*margin: 0px;*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#container {
+
+  background-color: #ff9999;
+  /*background-color: #000;*/
+  width: 100%;
+  height: 100%
+}
+
+#image {
+  background: url('../image/me_trans.png') no-repeat;
+  background-size: contain;
+  margin: auto;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 96px;
+  height: 96px;
+}
+
+/*#center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+#about {
+  overflow: hidden;
+
+}
+
+#name {
+  color: #666666;
+  padding-top: 48px;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  /*border-style: groove;*/
+  /*border-bottom: thick solid #333333;*/
+
+}
+
+#left {
+  overflow: visible;
+  background: url('../image/goa.jpg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 66.66%;
+}
+
+#right {
+overflow: hidden;
+padding: 10px;
+/*float: right;*/
+display: inline-block;
+width: 100%;
+}
+
+.description {
+  color: #333366;
+  font-size: 20px;
+  margin: auto;
+  text-align: left;
+  width: 216px;
+  /*float: right;*/
+  /*width: 50%*/
+}
+
+.icon{
+  height: 48px;
+  width: 48px;
+  vertical-align: middle;
+}
+
+#divider {
+    border: 0;
+    margin: 5px 0px 10px 0px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.social {
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+}
+
+#find_me {
+  width: 228px;
+  margin: auto;
+}
