@@ -26,7 +26,7 @@ body {
   background: url('../image/me2.jpg') no-repeat;
   background-size: contain;
   margin: auto;
-  width: 12em;
+  width: 11em;
   height: 12em;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 #about {
-  overflow: hidden;
+  overflow: auto;
 
 }
 
 #name {
-  color: #666666;
+  color: #000000;
   font-size: 2em;
   text-align: center;
   vertical-align: middle;
@@ -54,16 +54,16 @@ body {
 
 #left {
   overflow: hidden;
-  /*float: left;*/
-  padding: 2em;
+  float: left;
+  /*padding: 2em;*/
   display: inline-block;
   width: 14em;
 }
 
 #right {
 overflow: hidden;
-padding: 10px;
-/*float: right;*/
+/*padding: 10px;*/
+float: right;
 display: inline-block;
 width: 14em;
 }
