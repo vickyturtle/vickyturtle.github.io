@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-  background: url('../image/goa.jpg');
+  background: url('../image/goa_bg.jpg');
   /*background-color: #000;*/
   background-position: center;
   overflow: hidden;
@@ -34,6 +34,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
+  min-width: 30em;
   transform: translate(-50%, -50%);
 }
 
@@ -90,12 +91,12 @@ width: 14em;
 }
 
 .social {
-  width: 64px;
-  height: 64px;
+  max-width: 64px;
+  max-height: 64px;
   padding: 12px;
 }
 
 #find_me {
-  width: 228px;
+  width: 350px;
   margin: auto;
 }
