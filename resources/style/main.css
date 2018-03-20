@@ -19,8 +19,8 @@ body {
   /*background: url('../image/sunset.jpg');*/
   background-color: #00000080;
   background-position: center;
-  overflow: hidden;
-  position: relative;
+  overflow: auto;
+  position: absolute;
   background-size: cover;
   vertical-align: middle;
   max-width: 24em
@@ -118,9 +118,9 @@ width: 14em;
 }
 
 .social {
-  max-width: 64px;
-  max-height: 64px;
-  padding: 12px;
+  max-width: 56px;
+  max-height: 56px;
+  padding: 8px;
 }
 
 #find_me {
