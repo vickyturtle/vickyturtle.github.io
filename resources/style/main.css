@@ -8,9 +8,16 @@ body {
   right: 0;
 }
 
+#bg {
+  background: url('../image/sunset.jpg');
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+
 #container {
-  background: url('../image/goa_bg.jpg');
-  /*background-color: #000;*/
+  /*background: url('../image/sunset.jpg');*/
+  background-color: #00000080;
   background-position: center;
   overflow: hidden;
   position: relative;
@@ -22,12 +29,20 @@ body {
   height: 100%
 }
 
+.header {
+  max-width: 800px;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  margin: auto;
+}
+
 #image {
   background: url('../image/me2.jpg') no-repeat;
-  background-size: contain;
-  margin: auto;
+  background-size: cover;
+  margin: 20px auto;
+  border-radius: 50%;
   width: 14em;
-  height: 15em;
+  height: 14em;
 }
 
 #center {
@@ -40,11 +55,22 @@ body {
 
 #about {
   overflow: auto;
+  font-size: 1.2em;
+  padding: 40px;
+  font-family: Courier New, Helvetica, monospace;
+  color: #ffffff;
+  margin: 16px auto;
+  max-width: 800px
 
 }
 
+#about a {
+  color: #FFFF00;
+  text-decoration: none;
+}
+
 #name {
-  color: #000000;
+  color: #ffffff;
   font-size: 2em;
   text-align: center;
   vertical-align: middle;
@@ -83,11 +109,12 @@ width: 14em;
   vertical-align: middle;
 }
 
-#divider {
+.divider {
     border: 0;
-    margin: 5px 0px 10px 0px;
+    max-width: 800px;
+    margin: 4px auto 4px auto;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2));
 }
 
 .social {
@@ -97,6 +124,7 @@ width: 14em;
 }
 
 #find_me {
-  width: 350px;
+  width: 420px;
   margin: auto;
+  /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));*/
 }
